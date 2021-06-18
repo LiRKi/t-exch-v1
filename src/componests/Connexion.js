@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Connexion extends Component {
   render() {
@@ -29,9 +30,19 @@ class Connexion extends Component {
                   />
                 </div>
                 <div className="form-group">
-                  <button className="btn btn-primary btn-block" type="submit">
+                <Link to="/NavBarAp">
+                <button className="btn btn-primary btn-block" type="submit">
                     Connexion
                   </button>
+                  {/* <a
+                    className="btn btn-light action-button"
+                    role="button"
+                    href=""
+                  >
+                    Connexion
+                    <br />
+                  </a> */}
+                </Link>
                 </div>
               </div>
             </form>

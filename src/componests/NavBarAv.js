@@ -21,21 +21,21 @@ class NavBarAv extends Component {
             <div className="collapse navbar-collapse" id="navcol-1">
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
-                  <Link to="/">
+                  <Link to="/"><b>
                     <a className="nav-link" href="accueil.html">
                       Accueil
-                    </a>
+                    </a></b>
                   </Link>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item"><b>
                   <a className="nav-link" href="#services">
                     Services
-                  </a>
+                  </a></b>
                 </li>
-                <li className="nav-item">
+                <li className="nav-item"><b>
                   <a className="nav-link" href="#contact">
                     Contact
-                  </a>
+                  </a></b>
                 </li>
               </ul>
               <span className="navbar-text actions">
