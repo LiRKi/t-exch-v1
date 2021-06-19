@@ -1,9 +1,13 @@
 import React, { Component } from 'react'
 
+
 class NavBarAp extends Component {
+  
     render() {
+      
         return (
             <div>
+              <link href="assets/css/style1.css" rel="stylesheet" /> 
                     <div class="popup-wrapper1">
       <div class="popup post-sharing">
         <span class="popup-closed"><i class="far fa-window-close"></i></span>
@@ -1084,7 +1088,6 @@ class NavBarAp extends Component {
         </div>
       </div>
     </footer>
-
             </div>
         );
     }
