@@ -895,8 +895,8 @@ class Publication extends Component {
                 </ul>
                 <div class="micko-copyright">
                   <p>
-                    <i class="fas fa-copyright"></i>Copyright 2021 Micko by
-                    <a href="#">Gambolthemes</a>. All Right Reserved.
+                    <i class="fas fa-copyright"></i>Copyright 2021 T-exchange by
+                    <a href="www.T-exchange.com">T-Exchange</a>. All Right Reserved.
                   </p>
                 </div>
                 <ul class="social-ft-links">
