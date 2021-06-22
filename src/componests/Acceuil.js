@@ -7,6 +7,7 @@ export default class Acceuil extends Component {
       
       <div>
         <NavBarAv />
+        
         <header className="header-blue">
           <div className="container hero">
             <div className="row">

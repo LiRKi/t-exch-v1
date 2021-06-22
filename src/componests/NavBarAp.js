@@ -7,7 +7,7 @@ class NavBarAp extends Component {
       
         return (
             <div>
-                   
+        
     <header class="header clearfix">
       <div class="header-inner">
         <nav

@@ -20,7 +20,6 @@ function App() {
         <Route path="/Inscription" component={Inscription} />
         <Route path="/NavBarAp" component={NavBarAp} />
         <Route path="/publication" component={Publication} />
-        
       </BrowserRouter>
       
       

@@ -5,6 +5,7 @@ class NavBarAv extends Component {
   render() {
     return (
       <div>
+    <link href="assets/css/style.css" rel="stylesheet" />  
         <nav className="navbar navbar-light navbar-expand-md navigation-clean-button">
           <div className="container">
             <a className="navbar-brand" href="accueil.html">
