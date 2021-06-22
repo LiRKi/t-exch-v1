@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom";
+import NavBarAp from './NavBarAp';
 
 class Publication extends Component {
   
@@ -7,6 +8,7 @@ class Publication extends Component {
       
         return (
             <div>
+              <NavBarAp />
               <link href="assets/css/style1.css" rel="stylesheet" /> 
                     <div class="popup-wrapper1">
       <div class="popup post-sharing">

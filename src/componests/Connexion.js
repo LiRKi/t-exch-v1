@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
+import NavBarAv from "./NavBarAv";
 
 class Connexion extends Component {
   render() {
     return (
       <div>
+        <NavBarAv />
         <section className="register-photo">
           <div className="form-container">
             <div className="image-holder">

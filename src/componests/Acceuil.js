@@ -1,9 +1,12 @@
 import React, { Component } from "react";
+import NavBarAv from "./NavBarAv";
 
 export default class Acceuil extends Component {
   render() {
     return (
+      
       <div>
+        <NavBarAv />
         <header className="header-blue">
           <div className="container hero">
             <div className="row">

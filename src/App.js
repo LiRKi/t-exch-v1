@@ -15,7 +15,6 @@ function App() {
     <div>
        
       <BrowserRouter>
-        <NavBarAv />
         <Route exact path="/" component={Acceuil} />
         <Route path="/Connexion" component={Connexion} />
         <Route path="/Inscription" component={Inscription} />

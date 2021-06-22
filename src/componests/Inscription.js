@@ -1,9 +1,11 @@
 import React, { Component } from "react";
+import NavBarAv from "./NavBarAv";
 
 export default class Inscription extends Component {
   render() {
     return (
       <div>
+        <NavBarAv />
         <section className="register-photo">
           <div className="form-container">
             <div className="image-holder inscr">
