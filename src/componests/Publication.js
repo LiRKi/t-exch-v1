@@ -9,7 +9,7 @@ class Publication extends Component {
         return (
             <div>
               <NavBarAp />
-              <link href="assets/css/style1.css" rel="stylesheet" /> 
+              {/* <link href="assets/css/style1.css" rel="stylesheet" /> */} 
                     <div class="popup-wrapper1">
       <div class="popup post-sharing">
         <span class="popup-closed"><i class="far fa-window-close"></i></span>

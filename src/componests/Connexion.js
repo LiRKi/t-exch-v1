@@ -32,7 +32,7 @@ class Connexion extends Component {
                   />
                 </div>
                 <div className="form-group">
-                <Link to="/NavBarAp">
+                <Link to="/Publication">
                 <button className="btn btn-primary btn-block" type="submit">
                     Connexion
                   </button>
