@@ -28,7 +28,7 @@
   box-shadow: 0px 0px 3px #606e7d;
 }
 
-.navbar .collapse .btn {
+.navbar.collapse .btn {
   background: #606e7d;
 }
 .header-blue {

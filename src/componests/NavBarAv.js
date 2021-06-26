@@ -5,12 +5,14 @@ class NavBarAv extends Component {
   render() {
     return (
       <div>
-    <link href="assets/css/style.css" rel="stylesheet" />  
+        
         <nav className="navbar navbar-light navbar-expand-md navigation-clean-button">
           <div className="container">
-            <a className="navbar-brand" href="accueil.html">
+          <Link to="/">
+            <a className="navbar-brand" >
               <img id="logo" src="assets/img/logo_c.png" />
             </a>
+            </Link>
             <button
               data-toggle="collapse"
               className="navbar-toggler"
@@ -23,7 +25,7 @@ class NavBarAv extends Component {
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
                   <Link to="/"><b>
-                    <a className="nav-link" href="accueil.html">
+                    <a className="nav-link" >
                       Accueil
                     </a></b>
                   </Link>

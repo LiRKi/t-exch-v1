@@ -36,14 +36,6 @@ class Connexion extends Component {
                 <button className="btn btn-primary btn-block" type="submit">
                     Connexion
                   </button>
-                  {/* <a
-                    className="btn btn-light action-button"
-                    role="button"
-                    href=""
-                  >
-                    Connexion
-                    <br />
-                  </a> */}
                 </Link>
                 </div>
               </div>

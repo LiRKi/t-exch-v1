@@ -32,9 +32,13 @@ class NavBarAp extends Component {
               href="index.html"
             >
               <div class="#">
-              <a className="navbar-brand" href="accueil.html">
+              
+              <a className="navbar-brand" >
+              <Link to="/">
               <img id="logo" src="assets/img/logo_c.png" />
+              </Link>
             </a>   
+            
               </div>
             </a>
             <form class="search-form-header order-lg-0 order-md-1 order-md-0">
@@ -64,15 +68,19 @@ class NavBarAp extends Component {
             >
               <ul class="navbar-nav align-self-stretch">
                 <li class="nav-item">
-                  <a class="nav-link active" href="index.html">Accueil</a>
-                </li>
-                <li class="nav-item">
-                <Link to="/Publication">
-                  <a class="nav-link" href="find_connections.html">Publications</a>
+                  <Link to="/">
+                  <a class="nav-link active" >Accueil</a>
                   </Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="all_jobs.html">Questions</a>
+                <Link to="/Publication">
+                  <a class="nav-link" >Publications</a>
+                  </Link>
+                </li>
+                <li class="nav-item">
+                <Link to="/Question">
+                  <a class="nav-link">Questions</a>
+                  </Link>
                 </li>
               </ul>
             </div>
